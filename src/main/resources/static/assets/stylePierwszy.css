@@ -1,0 +1,83 @@
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+	
+	h1{
+		color: red;
+	}
+	
+	html{
+	font-family: 'Open Sans', sans-serif;	
+	}
+	
+	h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+	}
+	*{
+		text-decoration-color: greenyellow;
+	}
+
+		
+	#pierwszeID{
+		color:green;
+	}
+	
+	#drugieID{
+		color:green;
+	}
+	
+	.clasa_w_Stylach{
+		color:#CC33FF;
+		display: inline;
+		border: dotted 3px rgb(234,45,210);
+	}
+	
+	.clasa_w_Stylach2{
+		color:#CC0000;
+		border: dotted 3px rgb(234,45,210);
+	}
+	
+	.clasa_w_Stylach3{
+		color:#003300;
+	}
+	
+	.nieWyswietlajTegoKolego{
+		display: none;
+	}
+	
+	.imgNaTlo{
+		display: block;
+		width:50%
+	}
+	#my_First_BG{
+		background: transparent url("joshua-sortino-5581-unsplash.jpg");
+		background-position: center;
+	}
+	#bodyId{
+		background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+	}
+img{
+float:left;
+}	
+	
+	nav ul{
+		list-style-type:none;
+		
+	}
+	nav ul li{
+		display:inline-block;
+		text-decoration:none;
+		background: #FDBF7D;
+		padding: 40 px 20px;
+		margin: 20px;
+	}
+	
+	nav ul li a{
+		
+		text-decoration:none;
+		color: #CCFFFF;
+		border: solid 1px yellow;
+		border-radius:4px;
+		size: 30px;
+		
+	}
+	
+	

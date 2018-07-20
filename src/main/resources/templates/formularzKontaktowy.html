@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:color="http://www.w3.org/1999/xhtml"
+      xmlns:class="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link  th:href="@{assets/stylePierwszy.css}" rel="stylesheet" >
+</head>
+<body id="my_First_BG">
+
+<!-- hrefy dod doadania -->
+<!--place holder - trzyma dane do wpisania-->
+
+<!-- do selecta ( pole wyboru) w option dodac value="" - okreslenie pola -->
+
+<!-- ctrl+w - zaznaczanie w linii s łowo - zdanie itp ( kilkukrotne klik-->
+<nav>
+    <ul>
+        <li><a href="/">Moja zacna Strona Główna</a></li>
+        <li><a href="/about">about</a></li>
+        <li><a href="/formularz">Formularz Kontaktowy</a></li>
+    </ul>
+</nav>
+
+<form>
+    <h1>Formularz Kontaktowy</h1>
+    <label class= "clasa_w_Stylach2">Podaj Imię
+    <input type="text" name="name" placeholder="Imię" required>
+    </label>
+    <br>
+    <label class= "clasa_w_Stylach2" for="surname">Podaj Nazwisko:</label>
+    <input type = "text" id = "surname" placeholder="Nazwisko" required>
+    <br>
+    <label class= "clasa_w_Stylach2">Podaj Email Proszę :
+        <input type="email" name="email" placeholder="Email" autocomplete="false" required>
+    </label>
+    <br>
+    <select>
+        <option>Wybierz Kraj</option>
+        <option value="gb">Wielka Brytania</option>
+        <option value="pl">Polska</option>
+        <option value="de">Niemcy</option>
+        <option value="cy">Cypr</option>
+
+
+    </select>
+
+<br>
+        <input type="color">
+
+
+    <br/>
+    <input type="submit" value="Wyślij Formularz">
+
+    <button type="submit">Wyślij</button>
+</form>
+</body>
+</html>
